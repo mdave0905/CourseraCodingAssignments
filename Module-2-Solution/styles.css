@@ -1,1 +1,100 @@
+* {
+	font-family: "Dongle";
+  box-sizing: border-box;
+}
 
+body{
+	font-size: 24px;
+}
+
+
+.box{
+  width: 100%;
+  overflow: none;
+}
+
+.title{
+	font-size: 36px;
+	text-align: center;
+  font-weight: 700;
+}
+
+
+.content-name{
+    float: right;
+    border:4px solid black;
+    color: lavender;
+    font-size: 125%;
+    margin-right: 32px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.content{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black
+  font-size: 25px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.smallBox1{
+  background-color: #d59898;
+  color: black;
+}
+
+.smallBox2{
+  color: white;
+  background-color: #c14543;
+  text-align: center;
+  vertical-align: middle;
+}
+.smallBox3{
+  background-color: #e5d198;
+  color: black;
+}
+
+/* Small Devices only */
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .small-12 {
+    float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
+}
+
+/* Medium Devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+  .medium-6,.medium-12 {
+    float: left;
+  }
+  .medium-6 {
+    width: 50%;
+  }
+  .medium-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .smallBox3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+
+/* Large dDvices only */
+@media (min-width: 992px) {
+  .large-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
